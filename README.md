@@ -1,1 +1,1 @@
-# https-github.com-Codeeteam-GA-4-reactjs-wrapper
+# GA-4-reactjs-wrapper
