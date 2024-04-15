@@ -1,0 +1,30 @@
+.cookie-banner-content {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 2rem;
+
+  &__main {
+    margin-bottom: 2rem;
+  }
+
+  &__consents {
+    display: none;
+
+    &--active {
+      display: block;
+    }
+
+    & > li {
+      display: block;
+
+      & > input {
+        margin-right: 1rem;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 0.4rem;
+      }
+    }
+  }
+}
